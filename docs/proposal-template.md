@@ -3,7 +3,7 @@ Team name: ProfAI
 Team members: L Dettling 
 
 # Introduction
-Students have varying preferences for learning, requiring flexible, dynamic content to suit their needs. Studies show that longer lectures with minimal engagement from students leads to poor retention and interest from students [source here fixme]. Additionally, instructors are struggling to produce meaningful content for students due to the technical requirements of content creation. With these motivating factors in mind, GVSU IT Innovation and Research is proposing ProfAI, a dynamic generative AI content creation web application.
+Students have varying preferences for learning, requiring flexible, dynamic content to suit their needs. Studies show that longer lectures with minimal engagement from students leads to poor retention and interest from students (see [1.1](https://www.lifescied.org/doi/10.1187/cbe.16-03-0125), [1.2](https://www.researchgate.net/publication/248528255_A_Cognitive_Theory_of_Multimedia_Learning_Implications_for_Design_Principles), and [1.3](https://www.sciencedirect.com/science/article/abs/pii/S0360131516301798) for more inforamtion). Additionally, instructors are struggling to produce meaningful content for students due to the technical requirements of content creation. With these motivating factors in mind, GVSU IT Innovation and Research is proposing ProfAI, a dynamic generative AI content creation web application.
 
 
 
@@ -21,7 +21,7 @@ ProfAI will first allow faculty members to generate a realistic avatar of themse
 - Trello for PM
 - eleven labs for voice geeration
 
-We predict the use of several technologies for this project. At this time, we are planning to keep user data stored and secured with MongoDB. We are looking into ChatGPT'S Assistant API for script generation. Next, we plan to use ElevenLabs(link phrase) for voice generation. Although we have not finalized this yet, we are planning to use either SlidesSpeak (link) or Magic slides (link) for slideshow generation based on the generated script. We plan to use HeyGen (see [HeyGen's][webise.com] website for more information) for secure avatar generation and video generation.
+We predict the use of several technologies for this project. At this time, we are planning to keep user data stored and secured with MongoDB. We are looking into [ChatGPT'S Open AI Platform API](https://platform.openai.com/docs/assistants/overview) for script generation. Next, we plan to use [ElevenLabs API](https://elevenlabs.io/docs/api-reference/getting-started) for voice generation. Although we have not finalized this yet, we are planning to use either [SlideSpeak API](https://slidespeak.co/slidespeak-api/) or [Magic Slides API](https://www.magicslides.app/magicslides-api/docs)  for slideshow generation based on the generated script. We plan to use [HeyGen's API](https://docs.heygen.com/docs/quick-start) for secure avatar generation and video generation.
 
 
 We plan to use GitHub to keep track of and maintain our web app. We plan to use Trello as a project management tool.
