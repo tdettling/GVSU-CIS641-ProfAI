@@ -1,0 +1,213 @@
+/* General styling */
+body {
+    margin: 0;
+    background-color: #fff; /* Use hex for consistency */
+    font-size: 100%;
+    font-family: 'Nunito', sans-serif;
+}
+
+/* Navigation bar styling */
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.nav-item {
+    display: inline; /* Displays items inline */
+    margin-right: 15px; /* Space between items */
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+}
+
+.navbar li a:hover:not(.active) {
+    background-color: #111;
+}
+
+/* Active link styling */
+.active {
+    background-color: #520a81;
+}
+
+
+/* Content list styling */
+.content-list {
+    list-style-type: disc;
+    margin-left: 20px;
+    padding-left: 0;
+}
+
+.content-list li {
+    margin-bottom: 5px;
+}
+
+/* Button styling */
+.button {
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  font-family: 'Nunito', sans-serif;
+}
+
+.button1 {
+  background-color: white;
+  color: black;
+  border: 4px solid #520a81;  /* Thicker border */
+  border-radius: 25px;        /* Rounder corners */
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.2);  /* Shaded effect */
+}
+
+.button1:hover {
+  background-color: #520a81;
+  color: white;
+}
+
+
+/* Heading and paragraph styling */
+h1 {
+    color: #000;
+    font-family: 'Nunito', sans-serif;
+}
+
+p {
+    color: #000;
+    font-family: 'Nunito', sans-serif;
+}
+
+
+/* Content section styling */
+.section {
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.section h1, .section h2, .section h3, .section h4 {
+    margin-top: 15px;
+    padding-top: 10px;
+}
+
+li {
+    margin-bottom: 10px;
+    margin: auto;
+    font-family: 'Nunito', sans-serif;
+    color: #000;
+}
+
+.right-image {
+    float: right;
+    margin-left: 15px;
+    max-width: 200%;
+    height: auto;
+}
+
+.title-word {
+    animation: color-animation 4s linear infinite;
+  }
+  
+  .title-word-1 {
+    --color-1: #DF8453;
+    --color-2: #3D8DAE;
+    --color-3: #E4A9A8;
+  }
+  
+  .title-word-2 {
+    --color-1: #DBAD4A;
+    --color-2: #ACCFCB;
+    --color-3: #17494D;
+  }
+  
+  .title-word-3 {
+    --color-1: #ACCFCB;
+    --color-2: #E4A9A8;
+    --color-3: #ACCFCB;
+  }
+  
+  .title-word-4 {
+    --color-1: #3D8DAE;
+    --color-2: #DF8453;
+    --color-3: #E4A9A8;
+  }
+  
+  @keyframes color-animation {
+    0%    {color: var(--color-1)}
+    32%   {color: var(--color-1)}
+    33%   {color: var(--color-2)}
+    65%   {color: var(--color-2)}
+    66%   {color: var(--color-3)}
+    99%   {color: var(--color-3)}
+    100%  {color: var(--color-1)}
+  }
+  
+  /* Here are just some visual styles. 🖌 */
+  
+  .container {
+    display: grid;
+    place-items: center;  
+    text-align: center;
+    height: 30vh
+  }
+  
+  .title {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-size: 6.5vw;
+    text-transform: uppercase;
+  }
+
+  .fancy {
+    @supports (background-clip: text) or (-webkit-background-clip: text) {
+      background-image: 
+        url("data:image/svg+xml,%3Csvg width='2250' height='900' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg%3E%3Cpath fill='%2300A080' d='M0 0h2255v899H0z'/%3E%3Ccircle cx='366' cy='207' r='366' fill='%2300FDCF'/%3E%3Ccircle cx='1777.5' cy='318.5' r='477.5' fill='%2300FDCF'/%3E%3Ccircle cx='1215' cy='737' r='366' fill='%23008060'/%3E%3C/g%3E%3C/svg%3E%0A");
+      background-size: 110% auto;
+      background-position: center;
+      color: transparent;
+      -webkit-background-clip: text;
+      background-clip: text;
+    }
+  }
+
+  .subtitleP {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-size: 6.5vw;
+  }
+
+  #edu-con {
+    display: flex; /* Use flexbox layout */
+    justify-content: space-between; /* Space between items */
+}
+
+.edu-item {
+    flex: 1; /* Each item takes equal space */
+    margin: 10px; /* Add some margin for spacing */
+    padding: 15px; /* Padding inside each item */
+    border: 1px solid #ccc; /* Optional: add a border for visual separation */
+    border-radius: 5px; /* Optional: rounded corners */
+    background-color: #db91ee; /* Optional: background color */
+}
+
