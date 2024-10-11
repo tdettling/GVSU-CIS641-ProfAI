@@ -8,21 +8,19 @@ Team name: ProfAI
 
 Members present: L Dettling
 
-Date: 10-09-2024
+Date: 10-23-2024
 
 Time: 1:00pm
 
 
 Discussion points: 
 
-* Verify final questions/concerns on requirements
-* Continue with Login Page
-    - FilePath error - could be a .urls error in dir
-* Prep for OOO, 20th-24th
+*  L is OOO on a cruise, dev and tutorial work only. TBD
+*  
+* 
 
 Goals for next week (include responsibilities)
 
-* L - Finish requirements
-* L - Finish formal tech spec list
-* L - Finish OAuth tutorial (Tech with Tim)
-* L - plan mini sprint to do while on vacation
+* L - fixme
+
+
