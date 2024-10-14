@@ -7,43 +7,44 @@ body {
 }
 
 .navbar {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1000;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
 }
 
 .nav-item {
-    display: inline; 
-    margin-right: 15px; 
+  display: inline; 
+  margin-right: 15px; 
 }
 
 .navbar li {
-    float: left;
+  float: left;
 }
 
 .navbar li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-family: 'Nunito', sans-serif;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Nunito', sans-serif;
 }
 
 .navbar li a:hover:not(.active) {
-    background-color: #111;
+  background-color: #111;
 }
 
 
 .active {
-    background-color: #0a7981;
+  background-color: #0a7981;
 }
+
 
 
 .content-list {
@@ -209,4 +210,37 @@ li {
 
 body {
   padding-bottom: 70px; 
+}
+
+.pagetitle {
+  display: flex;
+  align-items: center; 
+  margin: 20px; 
+  padding: 10px;
+  background-color: #00394c; 
+  border-radius: 10px;
+  top: 10px;
+  text-align: center;display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.pagetitle-img {
+  height: 400px;
+  width: auto;
+  display: inline-block;
+}
+
+.pagetitle-text h1 {
+  font-size: 84px; 
+  margin: 0;
+  color: #ffffff; 
+  text-align: center;
+}
+
+.pagetitle-text p {
+  font-size: 26px;
+  margin-top: 5px; 
+  color: #ffffff; 
+  text-align: center;
 }
