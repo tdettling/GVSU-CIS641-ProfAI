@@ -15,12 +15,13 @@ Time: 1:00pm
 
 Discussion points: 
 
-*  L is OOO on a cruise, dev and tutorial work only. TBD
-*  
+*  Server-side API implementation in progress
+*  Client-side API implementation in progress
 * 
 
 Goals for next week (include responsibilities)
 
-* L - fixme
+* L - Fully implement Server and Client API
+* L - Work on adding full requirements to Github. 
 
 

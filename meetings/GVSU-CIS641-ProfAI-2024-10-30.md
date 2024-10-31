@@ -8,21 +8,21 @@ Team name: ProfAI
 
 Members present: L Dettling
 
-Date: 10-16-2024
+Date: 10-30-2024
 
 Time: 1:00pm
 
 
 Discussion points: 
 
-*  Finished tutorials for API handling (REST) in Django and React
-*  Vosk - Audio parser library in Python. Might be used for syncing up audio with a slideshow. 
-* GVSU Workshop in two fridays - prep presentation
+*  Server-side API implementation complete for HeyGen avatars
+*  Client-side API implementation in progress - error with token passing. 
+* GVSU Workshop Conference Presentation is this Friday. 
 
 Goals for next week (include responsibilities)
 
-* L - Begin Server-side API implementation
-* L - Finish presentation for Workshop and presentation for midterm. 
-* L - OOO next week. 
+* L - Fix token issue
+* L - Start implementing OpenAI assistant 
+* L - Work on adding full requirements to Github. 
 
 
