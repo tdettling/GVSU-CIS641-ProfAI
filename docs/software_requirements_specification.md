@@ -39,13 +39,6 @@ The purpose of this document is to record and maintain requirements specificatio
     4. The system shall allow users to approve a script. 
     5. The system shall lock a generated script for editing after the script has been approved by the user. 
 
-6. Navigation of App
-    1. The system shall automatically display a 'Getting Started' page for users without a saved API key. 
-    2. <Functional Requirement 2>
-    3. <Functional Requirement 3>
-    4. <Functional Requirement 4>
-    5. <Functional Requirement 5>
-
 7. Video Generation 
     1. The system shall only allow a video to be generated if a user has a saved API key. 
     2. The system shall generate a video when an avatar, script, title, and voice have been entered/selected. 
@@ -55,7 +48,7 @@ The purpose of this document is to record and maintain requirements specificatio
 
 # Non-Functional Requirements
 
-1. <Accessability>
+1. Accessibility
     1. The system shall maintain a color-blind friendly color pallet for accessibility. 
     2. The system shall maintain a consistent color pallet. 
     3. The system shall generate a slideshow as part of the video with a consistent template. 
