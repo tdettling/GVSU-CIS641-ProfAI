@@ -1,12 +1,9 @@
 # Overview
-<Describe the purpose of this document in 1 paragraph of less … hint: it is
-your SRS>
-
-
+This odcument sevres as a cenetral location for all artifacts within this application. 
 
 
 # Software Requirements
-The purpose of this document is to record and maintain requirements specification for ProfAI. Requirements are sorted by type: Functional and Non-Functional.
+The purpose of this section is to record and maintain requirements specification for ProfAI. Requirements are sorted by type: Functional and Non-Functional.
 
 
 # Functional Requirements
@@ -116,34 +113,33 @@ The purpose of this document is to record and maintain requirements specificatio
 This section details the change management plan for ProfAI.
 
 
-## Sponsor
+### Sponsor
 Erik Fredericks, Professor, College of Computing, Grand Valley State University
 
 
-## Change Agent
+### Change Agent
 Information Technology Innovation and Research, Information Technology, Grand Valley State University
 
 
-## Potential Adopters
+### Potential Adopters
 * Faculty Members
 * IT Staff Members
 
 
-## Plan
+### Plan
 
-
-### Revising Management Policies
+#### Revising Management Policies
 We plan to evaluate IT's current policies to identify if any policies conflict with our product. With the pending launch of any new AI policies or procedures, we will assess if any action needs to be taken for our product. Proposed changes will be submitted as a formal request to IT Innovation and Research. Any proposed changes to our system will be reviewed by both IT Innovation and Research, and IT Security. If needed, approvals may need to be revised and approved again. This revierw is intented to resolve any integration issues, policiy conflicts, and user experience pain piiunts. All chnages will be compatable with GVSU systems. 
 
-### Assessing the Cost and Benefits
+#### Assessing the Cost and Benefits
 For any requested changes, IT Innovation and Research will evaluate the costs associated, such as software licensing, working hours and development time, etc. Benefits and downsides of proposed changes will also be considered. In the assessment, any potential risks will be identified and judged for approval/denial.
 
 
-### Motivating Adoption
+#### Motivating Adoption
 Any approved implemented change will be announced by IT Innovation and Research. Test groups, motivated by free beta testing, will be asked to verify that the change was successful. Surveys will be sent to early testers to request feedback.
 
 
-### Training
+#### Training
 Training content will be provided to faculty who are registered on the application. Appropriate training will also be given to staff members supporting the application upon any approved and implemented change. Any major change to this application will include a series of training articles (Knowledge Base Articles) to enhance community member understanding. 
 
 
@@ -161,7 +157,7 @@ This section links any related artifacts to final requirements.
 
 
 ## Class and Object Diagram Traceability
-| Artifact ID     | | Artifact Name | Requirement ID |
+| Artifact ID     | Artifact Name | Requirement ID |
 | :-------------: |:----------: | :----------: |
 | 4.1 | Models Class and Object Diagram | FR1, NFR2 |
 | 4.2 | Overall Project Class and Object Diagram | FR1-6, NFR3, NFR4 |
@@ -186,8 +182,8 @@ This section links any related artifacts to final requirements.
 
 # Software Artifacts
 This section provides direct links to all related artifacts for this application. Artifacts are sorted by the following ID's. 
-| Artifact ID Level| Artifact Type |
-| :-------------: | :----------: |
+| Artifact ID Level| Artifact Type |  Artifact Link |
+| :-------------: | :----------: | :----------: |
 |1.0| Software Requirements | [link](Software Requirements) |
 |2.0| Use Case and Activity Diagrams |[link](Use Case and Activity Diagrams) |
 |3.0| CRC Cards | [link](CRC Cards) |
