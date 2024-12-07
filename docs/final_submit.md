@@ -133,8 +133,7 @@ Information Technology Innovation and Research, Information Technology, Grand Va
 
 
 ### Revising Management Policies
-We plan to evaluate IT's current policies to identify if any policies conflict with our product. With the pending launch of any new AI policies or procedures, we will assess if any action needs to be taken for our product. Proposed changes will be submitted as a formal request to IT Innovation and Research. Any proposed changes to our system will be reviewed by both IT Innovation and Research, and IT Security. If needed, approvals may need to be revised and approved again. Upon approval., IT Innovation and Research will adjust using the x method, allowing xx.
-
+We plan to evaluate IT's current policies to identify if any policies conflict with our product. With the pending launch of any new AI policies or procedures, we will assess if any action needs to be taken for our product. Proposed changes will be submitted as a formal request to IT Innovation and Research. Any proposed changes to our system will be reviewed by both IT Innovation and Research, and IT Security. If needed, approvals may need to be revised and approved again. This revierw is intented to resolve any integration issues, policiy conflicts, and user experience pain piiunts. All chnages will be compatable with GVSU systems. 
 
 ### Assessing the Cost and Benefits
 For any requested changes, IT Innovation and Research will evaluate the costs associated, such as software licensing, working hours and development time, etc. Benefits and downsides of proposed changes will also be considered. In the assessment, any potential risks will be identified and judged for approval/denial.
@@ -145,31 +144,40 @@ Any approved implemented change will be announced by IT Innovation and Research.
 
 
 ### Training
-Training content will be provided to faculty who are registered on the application. Appropriate training will also be given to staff members supporting the application upon any approved and implemented change.
+Training content will be provided to faculty who are registered on the application. Appropriate training will also be given to staff members supporting the application upon any approved and implemented change. Any major change to this application will include a series of training articles (Knowledge Base Articles) to enhance community member understanding. 
+
 
 
 # Traceability links
-<Description of this section>
-## Use Case Diagram Traceability
+This section links any related artifacts to final requirements. 
+## Use Case and Activity Diagram Traceability
+| Artifact ID     | Artifact Name                     | Requirement ID |
+| :-------------: | :----------:                      | :----------: |
+| 2.1 | Importing Avatars (Use Case and Activity) | FR2 |
+| 2.2 | Video Generation (Use Case and Activity)| FR5, FR6 |
+| 2.3 | Slideshow Generation (Use Case Only)| FR3|
+| 2.4 | User Account Information (Use Case Only)| FR1, NFR2 |
+| TBD | TBD | FR4, NFR1, NFR3, NFR4, NFR5 |
+
+
+## Class and Object Diagram Traceability
+| Artifact ID     | | Artifact Name | Requirement ID |
+| :-------------: |:----------: | :----------: |
+| 4.1 | Models Class and Object Diagram | FR1, NFR2 |
+| 4.2 | Overall Project Class and Object Diagram | FR1-6, NFR3, NFR4 |
+| TBD | TBD | NFR1, NFR2, NFR5|
+
+
+## CRC Cards, Sequence and State, and Windows Navigation Diagram Traceability
 | Artifact ID | Artifact Name | Requirement ID |
 | :-------------: | :----------: | :----------: |
-| UseCase1 | Move Player | FR5 |
-| … | … | … |
+| 3.1 | Models CRC | FR1, NFR2 |
+| 3.2 | Movies CRC | FR1, FR6, NFR1 |
+| 3.3 | Views CRC | FR1-6, NFR2 |
+| 5.1 | API Key Handling Sequence and State | FR1, FR2, FR5, NFR2 |
+| 6.1 | Homepage and Dashboard Navigation | FR1-F6, NFR3, NFR4 |
+| TBD | TBD | NFR1, NFR5|
 
-
-## Class Diagram Traceability
-| Artifact Name | Requirement ID |
-| :-------------: |:----------: |
-| classPlayer | NFR3, FR5 |
-| … | … | … |
-
-
-## Activity Diagram Traceability
-<In this case, it makes more sense (I think, feel free to disagree) to link to the file and to those requirements impacted>
-| Artifact ID | Artifact Name | Requirement ID |
-| :-------------: | :----------: | :----------: |
-| <filename> | Handle Player Input | FR1-5, NFR2 |
-| … | … | … |
 
 
 
@@ -177,6 +185,15 @@ Training content will be provided to faculty who are registered on the applicati
 
 
 # Software Artifacts
-<Describe the purpose of this section>
-* [I am a link](to_some_file.pdf)
+This section provides direct links to all related artifacts for this application. Artifacts are sorted by the following ID's. 
+| Artifact ID Level| Artifact Type |
+| :-------------: | :----------: |
+|1.0| Software Requirements | [link](Software Requirements) |
+|2.0| Use Case and Activity Diagrams |[link](Use Case and Activity Diagrams) |
+|3.0| CRC Cards | [link](CRC Cards) |
+|4.0| Class and Object Diagrams | [link](Class and Object Diagrams) |
+|5.0| Sequence and State Diagrams | [link](Sequence and State Diagrams)  |
+|6.0| Windows Navigation Diagrams | [link](Windows Navigation Diagrams)  |
+
+
 
